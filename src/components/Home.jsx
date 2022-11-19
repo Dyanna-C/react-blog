@@ -16,9 +16,10 @@ export default function Home(props) {
 
     return (
         <>
-            <h1 className="text-center">Kekambas Blog</h1>
+            <h1 className="text-center">A Blog for Kekambas and all who Love Them </h1>
             {posts.map(post => <Posts key={post.id} post={post}/>)}
         </>
     )
 }
+
 
